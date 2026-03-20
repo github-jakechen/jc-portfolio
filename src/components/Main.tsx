@@ -16,7 +16,7 @@ function Main() {
           </div>
           <h1>Jake Chen</h1>
           <p>Analytics Engineer / BI Engineer</p>
-          <p>I build data products that turn insights into business decisions.</p>
+          <p>I build scalable data products that turn insights into business decisions.</p>
 
           <div className="mobile_social_icons">
             <a href="https://www.linkedin.com/in/jakechen-cdm/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>

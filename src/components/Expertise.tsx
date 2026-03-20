@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartSimple, faDatabase, faFlask } from '@fortawesome/free-solid-svg-icons';
+import { faChartSimple, faDatabase, faHexagonNodes } from '@fortawesome/free-solid-svg-icons';
 import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 
 import Chip from '@mui/material/Chip';
@@ -74,8 +74,8 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faFlask} size="3x"/>
-                    <h3>GenAI & Data Science</h3>
+                    <FontAwesomeIcon icon={faHexagonNodes} size="3x"/>
+                    <h3>AI & Decision Science</h3>
                     <p>I apply statistical thinking and experimentation frameworks such as A/B testing and funnel analysis to measure performance, identify growth opportunities, and support data-driven business decisions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
