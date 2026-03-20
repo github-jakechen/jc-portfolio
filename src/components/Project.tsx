@@ -18,21 +18,55 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
+                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Marketplace / Product Analytics</h2></a>
                 <div className="flex-chips">
-                    <Chip label="React" className="chip" />
-                    <Chip label="Flask" className="chip" />
-                    <Chip label="OpenAI" className="chip" />
-                    <Chip label="Qdrant" className="chip" />
+                    <Chip label="A/B Testing" className="chip" />
+                    <Chip label="Product Analytics" className="chip" />
+                    <Chip label="GenAI" className="chip" />
+                    <Chip label="Python" className="chip" />
                 </div>
                 <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
                 <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Self-Serve Analytics Dashboard</h2></a>
                 <div className="flex-chips">
-                    <Chip label="Unity" className="chip" />
-                    <Chip label="C#" className="chip" />
+                    <Chip label="Power BI" className="chip" />
+                    <Chip label="SQL" className="chip" />
+                    <Chip label="Python" className="chip" />
+                    <Chip label="Data Modelling" className="chip" />
+                </div>
+                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+            </div>
+            <div className="project">
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>End-to-End Analytics Thinking: From Problem to Insight</h2></a>
+                <div className="flex-chips">
+                    <Chip label="Power BI" className="chip" />
+                    <Chip label="SQL" className="chip" />
+                    <Chip label="Python" className="chip" />
+                    <Chip label="Data Modelling" className="chip" />
+                </div>
+                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+            </div>
+            <div className="project">
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>How I Approach A/B Testing & Experimentation</h2></a>
+                <div className="flex-chips">
+                    <Chip label="Power BI" className="chip" />
+                    <Chip label="SQL" className="chip" />
+                    <Chip label="Python" className="chip" />
+                    <Chip label="Data Modelling" className="chip" />
+                </div>
+                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+            </div>
+            <div className="project">
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>AI Use Case</h2></a>
+                <div className="flex-chips">
+                    <Chip label="GenAI" className="chip" />
+                    <Chip label="Gemini" className="chip" />
+                    <Chip label="Claude" className="chip" />
                 </div>
                 <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
                 <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
