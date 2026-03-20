@@ -6,6 +6,22 @@
 
     svg {
         color: white;
+        transition: color 0.25s ease, filter 0.25s ease;
+    }
+}
+
+/* Dark mode only: soft purple icon accent */
+body.dark-mode .skills-container .skill svg,
+.dark-mode .skills-container .skill svg {
+    color: #b794f4 !important;
+    filter: drop-shadow(0 0 6px rgba(183, 148, 244, 0.28));
+}
+
+/* Fallback for systems using OS-level dark mode */
+@media (prefers-color-scheme: dark) {
+    .skills-container .skill svg {
+        color: #b794f4;
+        filter: drop-shadow(0 0 6px rgba(183, 148, 244, 0.28));
     }
 }
   
@@ -25,6 +41,7 @@
     background-color: white !important;
     font-size: 0.8rem !important;
     height: 25px !important;
+    border-radius: 999px !important;
   
     span {
         font-family: 'Courier Prime', monospace;
@@ -33,6 +50,7 @@
   
     svg {
         height: 15px !important;
+        color: rgb(39, 40, 34) !important;
     }
 }
 
@@ -58,6 +76,38 @@
 
 .flex-chips .MuiChip-outlined span {
     color: rgb(39, 40, 34);
+}
+
+/* Dark mode only: keep original pill size, only update colors */
+body.dark-mode .chip,
+.dark-mode .chip {
+    background: rgba(123, 90, 255, 0.14) !important;
+    border: 1px solid rgba(146, 114, 255, 0.32) !important;
+    color: #b794f4 !important;
+    font-size: 0.8rem !important;
+    height: 25px !important;
+    border-radius: 999px !important;
+}
+
+body.dark-mode .chip span,
+.dark-mode .chip span {
+    color: #b794f4 !important;
+}
+
+body.dark-mode .chip svg,
+.dark-mode .chip svg {
+    color: #b794f4 !important;
+}
+
+body.dark-mode .flex-chips .MuiChip-outlined,
+.dark-mode .flex-chips .MuiChip-outlined {
+    background: rgba(123, 90, 255, 0.14) !important;
+    border: 1px solid rgba(146, 114, 255, 0.32) !important;
+}
+
+body.dark-mode .flex-chips .MuiChip-outlined span,
+.dark-mode .flex-chips .MuiChip-outlined span {
+    color: #b794f4 !important;
 }
 
 @media screen {
