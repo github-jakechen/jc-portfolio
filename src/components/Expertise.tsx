@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChartSimple, faDatabase, faHexagonNodes } from '@fortawesome/free-solid-svg-icons';
+import { faChartSimple, faLayerGroup, faHexagonNodes } from '@fortawesome/free-solid-svg-icons';
 import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
 
 import Chip from '@mui/material/Chip';
@@ -62,7 +62,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDatabase} size="3x"/>
+                    <FontAwesomeIcon icon={faLayerGroup} size="3x"/>
                     <h3>Data Engineering & Automation</h3>
                     <p>I build and optimize data pipelines and data models to ensure reliable, scalable, and efficient data workflows. I work with modern data stacks to transform raw data into structured, analysis-ready datasets.</p>
                     <div className="flex-chips">
