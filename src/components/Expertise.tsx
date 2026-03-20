@@ -1,44 +1,46 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartSimple, faDatabase, faFlask } from '@fortawesome/free-solid-svg-icons';
 import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+    "Python",
+    "Spark",
+    "Power BI",
+    "Tableau",
+    "Looker",
+    "Dashboard Design",
+    "Data Modeling",
+    "KPI Development",
+    "Data Visualization"
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
     "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Databricks",
+    "Microsoft Fabric",
+    "BigQuery",
+    "ETL / ELT",
+    "Data Pipelines",
+    "Dimensional Modelling",
+    "Data Warehousing",
+    "Data Lake",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "ChatGPT",
+    "Copilot",
+    "A/B Testing",
+    "Conversion Analysis",
+    "Funnel Analytics",
+    "Statistical Analysis",
+    "Experiment Design",
+    "Marketing Attribution"
 ];
 
 function Expertise() {
@@ -48,9 +50,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <FontAwesomeIcon icon={faChartSimple} size="3x"/>
+                    <h3>BI & Data Product Development</h3>
+                    <p>I design and build decision-ready dashboards and analytics products that translate complex data into actionable business insights. My work focuses on KPI design, data modeling, and scalable BI solutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,9 +62,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faDatabase} size="3x"/>
+                    <h3>Data Engineering & Automation</h3>
+                    <p>I build and optimize data pipelines and data models to ensure reliable, scalable, and efficient data workflows. I work with modern data stacks to transform raw data into structured, analysis-ready datasets.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,9 +74,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faFlask} size="3x"/>
+                    <h3>GenAI & Data Science</h3>
+                    <p>I apply statistical thinking and experimentation frameworks such as A/B testing and funnel analysis to measure performance, identify growth opportunities, and support data-driven business decisions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
